@@ -5,10 +5,10 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="New York" />
+      <div className="container shadow-lg rounded">
+        <Weather defaultCity="Houston" />
 
-        <footer>
+        <footer className="text-center">
           This project was coded by{" "}
           <a
             href="https://romiecastilleja.netlify.app"
